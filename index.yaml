@@ -1,0 +1,46 @@
+apiVersion: v1
+entries:
+  nginx:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.21.3
+    created: "2021-10-05T19:39:18.106018+03:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for the nginx server
+    digest: 9f4cada86e8ad504d52d4d0eed7719d9d42be82235feda4301317183107382fd
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - http://www.nginx.org
+    urls:
+    - charts/nginx-9.5.5.tgz
+    version: 9.5.5
+  open5gs-5gcore-helm:
+  - apiVersion: v2
+    appVersion: 2.1.7
+    created: "2021-10-05T19:39:18.1067882+03:00"
+    description: A Helm chart for open5gs 5G Core
+    digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
+    name: open5gs-5gcore-helm
+    type: application
+    urls:
+    - charts/open5gs-5gcore-helm-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-10-05T19:39:18.1035328+03:00"
