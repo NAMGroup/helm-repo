@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-05T19:39:18.106018+03:00"
+    created: "2021-10-06T09:30:00.969040768Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -30,17 +30,27 @@ entries:
     - https://github.com/bitnami/bitnami-docker-nginx
     - http://www.nginx.org
     urls:
-    - charts/nginx-9.5.5.tgz
+    - nginx-9.5.5.tgz
     version: 9.5.5
   open5gs-5gcore-helm:
   - apiVersion: v2
+    appVersion: 2.2.2
+    created: "2021-10-06T09:30:00.971725159Z"
+    description: A Helm chart for open5gs 5G Core
+    digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
+    name: open5gs-5gcore-helm
+    type: application
+    urls:
+    - open5gs-5gcore-helm-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 2.1.7
-    created: "2021-10-05T19:39:18.1067882+03:00"
+    created: "2021-10-06T09:30:00.97034767Z"
     description: A Helm chart for open5gs 5G Core
     digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
     name: open5gs-5gcore-helm
     type: application
     urls:
-    - charts/open5gs-5gcore-helm-0.0.1.tgz
+    - open5gs-5gcore-helm-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-05T19:39:18.1035328+03:00"
+generated: "2021-10-06T09:30:00.964993291Z"
