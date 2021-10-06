@@ -1,2 +1,2 @@
-# helm-repo
+# Helm-repo
 A repository for Helm charts
