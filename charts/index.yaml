@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-06T09:30:00.969040768Z"
+    created: "2021-10-07T12:44:11.0997164+03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -35,7 +35,17 @@ entries:
   open5gs-5gcore-helm:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-06T09:30:00.971725159Z"
+    created: "2021-10-07T12:44:11.1184167+03:00"
+    description: A Helm chart for open5gs 5G Core
+    digest: e132a9285cd4daa54f7d5dc1dd7aea135d9f6f67dd46bd732c04e127d5b0611e
+    name: open5gs-5gcore-helm
+    type: application
+    urls:
+    - open5gs-5gcore-helm-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 2.2.2
+    created: "2021-10-07T12:44:11.1055614+03:00"
     description: A Helm chart for open5gs 5G Core
     digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
     name: open5gs-5gcore-helm
@@ -45,7 +55,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 2.1.7
-    created: "2021-10-06T09:30:00.97034767Z"
+    created: "2021-10-07T12:44:11.1037149+03:00"
     description: A Helm chart for open5gs 5G Core
     digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
     name: open5gs-5gcore-helm
@@ -53,4 +63,4 @@ entries:
     urls:
     - open5gs-5gcore-helm-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-06T09:30:00.964993291Z"
+generated: "2021-10-07T12:44:11.0873458+03:00"
