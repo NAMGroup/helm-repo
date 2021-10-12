@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-12T11:52:25.736258333Z"
+    created: "2021-10-12T16:03:08.655615525Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -35,7 +35,7 @@ entries:
   open5gs-5gcore-helm:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-12T11:52:25.742266275Z"
+    created: "2021-10-12T16:03:08.659721348Z"
     description: A Helm chart for open5gs 5G Core
     digest: e132a9285cd4daa54f7d5dc1dd7aea135d9f6f67dd46bd732c04e127d5b0611e
     name: open5gs-5gcore-helm
@@ -45,7 +45,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-12T11:52:25.740252438Z"
+    created: "2021-10-12T16:03:08.658214755Z"
     description: A Helm chart for open5gs 5G Core
     digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
     name: open5gs-5gcore-helm
@@ -55,7 +55,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 2.1.7
-    created: "2021-10-12T11:52:25.738189946Z"
+    created: "2021-10-12T16:03:08.656911062Z"
     description: A Helm chart for open5gs 5G Core
     digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
     name: open5gs-5gcore-helm
@@ -66,7 +66,7 @@ entries:
   open5gs-amf-helm:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-12T11:52:25.743999232Z"
+    created: "2021-10-12T16:03:08.660780645Z"
     description: A Helm chart for open5gs AMF
     digest: b117986f57feb5529c36e74c663445f21bb76e8f828ba4c296f8195e9db9871e
     name: open5gs-amf-helm
@@ -79,7 +79,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-12T11:52:25.7485105Z"
+    created: "2021-10-12T16:03:08.664897252Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -87,7 +87,7 @@ entries:
       - bitnami-common
       version: 1.1.1
     description: Chart for the nginx server
-    digest: 0ec58e9e039aff266f0185397dd2909bbac221b3acf45e04969587198532fee2
+    digest: 79a385174a0fc5bc301d6b8b843277cc50a6064cea61914c32a41e0f6ba8a7ee
     home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
     icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
     keywords:
@@ -106,4 +106,4 @@ entries:
     urls:
     - test-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-12T11:52:25.728713163Z"
+generated: "2021-10-12T16:03:08.644682398Z"
