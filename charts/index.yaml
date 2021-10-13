@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.21.3
-    created: "2021-10-13T07:44:49.508083123Z"
+    created: "2021-10-13T08:17:54.952188531Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -35,7 +35,7 @@ entries:
   open5gs-5gcore-helm:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-13T07:44:49.513999574Z"
+    created: "2021-10-13T08:17:54.957259437Z"
     description: A Helm chart for open5gs 5G Core
     digest: e132a9285cd4daa54f7d5dc1dd7aea135d9f6f67dd46bd732c04e127d5b0611e
     name: open5gs-5gcore-helm
@@ -45,7 +45,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-13T07:44:49.512230488Z"
+    created: "2021-10-13T08:17:54.955850283Z"
     description: A Helm chart for open5gs 5G Core
     digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
     name: open5gs-5gcore-helm
@@ -55,7 +55,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 2.1.7
-    created: "2021-10-13T07:44:49.510201157Z"
+    created: "2021-10-13T08:17:54.954027998Z"
     description: A Helm chart for open5gs 5G Core
     digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
     name: open5gs-5gcore-helm
@@ -66,7 +66,7 @@ entries:
   open5gs-amf-helm:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-13T07:44:49.515778146Z"
+    created: "2021-10-13T08:17:54.958407275Z"
     description: A Helm chart for open5gs AMF
     digest: b117986f57feb5529c36e74c663445f21bb76e8f828ba4c296f8195e9db9871e
     name: open5gs-amf-helm
@@ -77,12 +77,12 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-10-13T07:44:49.517330229Z"
+    created: "2021-10-13T08:17:54.959729146Z"
     description: A Helm chart for open5gs 5G Core
-    digest: 27aedb21c0ebeb94ce934972ee41a9ce47b254fb24e4800ef94293ba336c2361
+    digest: 0820a024e1bf363a970e4bb7da99fd3fa0dce2bc624e638a8f3da567e9d446bb
     name: test
     type: application
     urls:
     - test-0.0.1.tgz
     version: 0.0.1
-generated: "2021-10-13T07:44:49.499144266Z"
+generated: "2021-10-13T08:17:54.946428416Z"
