@@ -38,7 +38,7 @@ command: #["{{ .Values.args.options }}", "{{ .Values.args.command }}", "\ ", "'h
   - 'http://{{ .Values.args.IP }}:{{ .Values.args.port }}/resource/{{ .Values.args.ID }}'
   - "-H 'accept: application/json'"
   - "-H 'Content-Type: application/json' \ "
-  - "-d '{{ .Values.args.BODY }}'""
+  - "-d '{{ .Values.args.BODY }}'"
   # - >
   #   {{ .Values.args.options }} {{ .Values.args.command }} \
   #   'http://{{ .Values.args.IP }}:{{ .Values.args.port }}/resource/{{ .Values.args.ID }}' \
