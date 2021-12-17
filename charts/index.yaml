@@ -3,7 +3,7 @@ entries:
   curl:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-12-16T13:33:23.823816038Z"
+    created: "2021-12-17T09:21:38.310054992Z"
     description: A Helm chart for a container with CURL
     digest: bc01fa71e9b8ff4e7a7135862ab12a034a580b95f07f961441c330e3c2b6235a
     name: curl
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-12-16T13:33:23.822892411Z"
+    created: "2021-12-17T09:21:38.309462064Z"
     description: A Helm chart for a container with CURL
     digest: c7b09b81ae547c1fd0d1c3db06310d30fb575c47ebccc97befcd78de6072d3c5
     name: curl
@@ -23,7 +23,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-12-16T13:33:23.821785687Z"
+    created: "2021-12-17T09:21:38.308604613Z"
     description: A Helm chart for a container with CURL
     digest: 56f535b852793fffc86e1e3090d4edc55409e8f90e07db448eaed006420cf269
     name: curl
@@ -31,42 +31,10 @@ entries:
     urls:
     - curl-0.0.1.tgz
     version: 0.0.1
-  nginx:
-  - annotations:
-      category: Infrastructure
-    apiVersion: v2
-    appVersion: 1.21.3
-    created: "2021-12-16T13:33:23.832013757Z"
-    dependencies:
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
-    description: Chart for the nginx server
-    digest: 9f4cada86e8ad504d52d4d0eed7719d9d42be82235feda4301317183107382fd
-    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
-    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
-    keywords:
-    - nginx
-    - http
-    - web
-    - www
-    - reverse proxy
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    name: nginx
-    sources:
-    - https://github.com/bitnami/bitnami-docker-nginx
-    - http://www.nginx.org
-    urls:
-    - nginx-9.5.5.tgz
-    version: 9.5.5
   open5gs-5gcore-helm:
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2021-12-16T13:33:23.84529595Z"
+    created: "2021-12-17T09:21:38.320674557Z"
     description: 'A Helm chart for open5gs 5G Core.  This chart version doesn''t need
       any hardcoded files or paths for mongodb to work.  It downloads everything it
       needs with wget from the mongoURL specified in values. '
@@ -78,7 +46,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2021-12-16T13:33:23.843899924Z"
+    created: "2021-12-17T09:21:38.317831611Z"
     description: A Helm chart for open5gs 5G Core
     digest: a4b2601deec11bb88eefd949a09b09d48c642434dbd7f56efe55d13b702ad904
     name: open5gs-5gcore-helm
@@ -88,7 +56,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2021-12-16T13:33:23.841904691Z"
+    created: "2021-12-17T09:21:38.316224463Z"
     description: A Helm chart for open5gs 5G Core
     digest: 5a2cbdfbe544cc3b7717fe0a04273f625d568c6efe637d96c24a434ce53be8d3
     name: open5gs-5gcore-helm
@@ -98,7 +66,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-12-16T13:33:23.839846969Z"
+    created: "2021-12-17T09:21:38.314689067Z"
     description: A Helm chart for open5gs 5G Core
     digest: e132a9285cd4daa54f7d5dc1dd7aea135d9f6f67dd46bd732c04e127d5b0611e
     name: open5gs-5gcore-helm
@@ -108,7 +76,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-12-16T13:33:23.838004065Z"
+    created: "2021-12-17T09:21:38.312796521Z"
     description: A Helm chart for open5gs 5G Core
     digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
     name: open5gs-5gcore-helm
@@ -116,31 +84,23 @@ entries:
     urls:
     - open5gs-5gcore-helm-0.0.2.tgz
     version: 0.0.2
+  pythonserver:
   - apiVersion: v2
-    appVersion: 2.1.7
-    created: "2021-12-16T13:33:23.835575844Z"
-    description: A Helm chart for open5gs 5G Core
-    digest: cd17cbbf33c853e103fa7359dd1e8f154b5221b77b5f3fbc8a9cf19ea1a61641
-    name: open5gs-5gcore-helm
+    appVersion: 1.0.0
+    created: "2021-12-17T09:21:38.321127831Z"
+    description: 'A Helm chart for a container running a Python server.  It is exposed
+      publically. It receives http requests and forwards respective requests to the
+      private gNB  mgmt server.   '
+    digest: d128064d0b0b57b32d47af07102c7260388fe57b1c179231e3732834a7aa9e8a
+    name: pythonserver
     type: application
     urls:
-    - open5gs-5gcore-helm-0.0.1.tgz
-    version: 0.0.1
-  open5gs-amf-helm:
-  - apiVersion: v2
-    appVersion: 2.2.2
-    created: "2021-12-16T13:33:23.847077818Z"
-    description: A Helm chart for open5gs AMF
-    digest: b117986f57feb5529c36e74c663445f21bb76e8f828ba4c296f8195e9db9871e
-    name: open5gs-amf-helm
-    type: application
-    urls:
-    - open5gs-amf-helm-0.0.1.tgz
+    - pythonserver-0.0.1.tgz
     version: 0.0.1
   test:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2021-12-16T13:33:23.84898142Z"
+    created: "2021-12-17T09:21:38.322716491Z"
     description: A Helm chart for open5gs 5G Core
     digest: 70daa47b74a0561b37adbafc5e55ddc450bed42e8eff6e230603def4b6e78bf5
     name: test
@@ -151,7 +111,7 @@ entries:
   upf-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-16T13:33:23.849764149Z"
+    created: "2021-12-17T09:21:38.323211988Z"
     description: A Helm chart for Kubernetes
     digest: c98387ca6f05a5e14f2f3f3ee569c1c5eb3beef4aa3564de1384d085d1e26b19
     name: upf-helm
@@ -159,4 +119,4 @@ entries:
     urls:
     - upf-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-16T13:33:23.820235252Z"
+generated: "2021-12-17T09:21:38.307328876Z"
