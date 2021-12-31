@@ -119,16 +119,6 @@ entries:
     urls:
     - simplepythonwebserver-0.2.0.tgz
     version: 0.2.0
-  - apiVersion: v2
-    appVersion: latest
-    created: "2021-12-31T20:21:35.9153492+02:00"
-    description: A Helm chart for Kubernetes
-    digest: ba69f8a289168368b7a9e048f321db4718fdb43ece001548a8f52a6d217dc2fc
-    name: simplepythonwebserver
-    type: application
-    urls:
-    - simplepythonwebserver-0.1.0.tgz
-    version: 0.1.0
   test:
   - apiVersion: v2
     appVersion: 2.2.2
