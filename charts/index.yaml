@@ -3,9 +3,19 @@ entries:
   cameraaistr:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.9356633+02:00"
+    created: "2022-01-13T08:44:08.0265023+02:00"
     description: A Helm chart for Kubernetes
-    digest: 6ed92387a7c5f38ffac274eb41d673948294e3184f83a2a0dbc8c4079b69d54e
+    digest: 9e1424a8f197b6b0b51d33af72722db085a95f64d80e9db957b3c779e12a9aec
+    name: cameraaistr
+    type: application
+    urls:
+    - cameraaistr-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-01-13T08:44:08.0249345+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 6a6df962f5b364492135c1f8e8c951dfc2132c529ebf2a33244af9a226598c9b
     name: cameraaistr
     type: application
     urls:
@@ -14,7 +24,7 @@ entries:
   curl:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-12T15:20:18.9377261+02:00"
+    created: "2022-01-13T08:44:08.0425297+02:00"
     description: A Helm chart for a container with CURL
     digest: bc01fa71e9b8ff4e7a7135862ab12a034a580b95f07f961441c330e3c2b6235a
     name: curl
@@ -24,7 +34,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-12T15:20:18.9372101+02:00"
+    created: "2022-01-13T08:44:08.0393998+02:00"
     description: A Helm chart for a container with CURL
     digest: c7b09b81ae547c1fd0d1c3db06310d30fb575c47ebccc97befcd78de6072d3c5
     name: curl
@@ -34,7 +44,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-12T15:20:18.9361746+02:00"
+    created: "2022-01-13T08:44:08.0329377+02:00"
     description: A Helm chart for a container with CURL
     digest: 56f535b852793fffc86e1e3090d4edc55409e8f90e07db448eaed006420cf269
     name: curl
@@ -45,7 +55,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T15:20:18.9382481+02:00"
+    created: "2022-01-13T08:44:08.0472824+02:00"
     description: A Helm chart for Kubernetes
     digest: 63a22be4ba85ef18268d7c8ce9a8a3f54f8d8b5dc9d2e1710996fdb45c6b6ac9
     name: mychart
@@ -56,7 +66,7 @@ entries:
   open5gs-5gcore-helm:
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2022-01-12T15:20:18.9425079+02:00"
+    created: "2022-01-13T08:44:08.0745507+02:00"
     description: 'A Helm chart for open5gs 5G Core.  This chart version doesn''t need
       any hardcoded files or paths for mongodb to work.  It downloads everything it
       needs with wget from the mongoURL specified in values. '
@@ -68,7 +78,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2022-01-12T15:20:18.9414565+02:00"
+    created: "2022-01-13T08:44:08.0703563+02:00"
     description: A Helm chart for open5gs 5G Core
     digest: a4b2601deec11bb88eefd949a09b09d48c642434dbd7f56efe55d13b702ad904
     name: open5gs-5gcore-helm
@@ -78,7 +88,7 @@ entries:
     version: 0.0.5
   - apiVersion: v2
     appVersion: 2.3.4
-    created: "2022-01-12T15:20:18.9409303+02:00"
+    created: "2022-01-13T08:44:08.0626316+02:00"
     description: A Helm chart for open5gs 5G Core
     digest: 5a2cbdfbe544cc3b7717fe0a04273f625d568c6efe637d96c24a434ce53be8d3
     name: open5gs-5gcore-helm
@@ -88,7 +98,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2022-01-12T15:20:18.9398781+02:00"
+    created: "2022-01-13T08:44:08.0583172+02:00"
     description: A Helm chart for open5gs 5G Core
     digest: e132a9285cd4daa54f7d5dc1dd7aea135d9f6f67dd46bd732c04e127d5b0611e
     name: open5gs-5gcore-helm
@@ -98,7 +108,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2022-01-12T15:20:18.9392774+02:00"
+    created: "2022-01-13T08:44:08.0530089+02:00"
     description: A Helm chart for open5gs 5G Core
     digest: 2ec21109d3a44f260f9df79d6bc54c7bf25614db8d1c5cc690cf08ae60e1fd5d
     name: open5gs-5gcore-helm
@@ -109,7 +119,7 @@ entries:
   pythonserver:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-12T15:20:18.9434876+02:00"
+    created: "2022-01-13T08:44:08.0811674+02:00"
     description: 'A Helm chart for a container running a Python server.  It is exposed
       publically. It receives http requests and forwards respective requests to the
       private gNB  mgmt server.   '
@@ -122,7 +132,7 @@ entries:
   simplepythonwebserver:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.9461438+02:00"
+    created: "2022-01-13T08:44:08.1019269+02:00"
     description: A Helm chart for Kubernetes
     digest: a55b4004b600c2522b84d50f765f5631e7f74a0c4fc65178bfe4569b4368565d
     name: simplepythonwebserver
@@ -132,7 +142,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.9455821+02:00"
+    created: "2022-01-13T08:44:08.098653+02:00"
     description: A Helm chart for Kubernetes
     digest: bdf0c8807e28d3985c44d453f90ee3a60a0898c5813da696aab7a20724e330dd
     name: simplepythonwebserver
@@ -142,7 +152,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.944991+02:00"
+    created: "2022-01-13T08:44:08.0960191+02:00"
     description: A Helm chart for Kubernetes
     digest: 6cf6f28a8b4a97f8e0a057f48ce397dccc221481e640e56aecbb4ca262bbfa9d
     name: simplepythonwebserver
@@ -152,7 +162,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.9443607+02:00"
+    created: "2022-01-13T08:44:08.0898548+02:00"
     description: A Helm chart for Kubernetes
     digest: ba69f8a289168368b7a9e048f321db4718fdb43ece001548a8f52a6d217dc2fc
     name: simplepythonwebserver
@@ -163,7 +173,7 @@ entries:
   simplepythonwebserverlb:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-01-12T15:20:18.9467084+02:00"
+    created: "2022-01-13T08:44:08.1062295+02:00"
     description: A Helm chart for Kubernetes
     digest: 77cb91f91776b98c682d7f2c7d1edd0c4c71aaaad7997dd81e2e7e139ef78b82
     name: simplepythonwebserverlb
@@ -174,7 +184,7 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 2.2.2
-    created: "2022-01-12T15:20:18.9477345+02:00"
+    created: "2022-01-13T08:44:08.1116117+02:00"
     description: A Helm chart for open5gs 5G Core
     digest: 70daa47b74a0561b37adbafc5e55ddc450bed42e8eff6e230603def4b6e78bf5
     name: test
@@ -185,7 +195,7 @@ entries:
   upf-helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T15:20:18.9481762+02:00"
+    created: "2022-01-13T08:44:08.1176525+02:00"
     description: A Helm chart for Kubernetes
     digest: c98387ca6f05a5e14f2f3f3ee569c1c5eb3beef4aa3564de1384d085d1e26b19
     name: upf-helm
@@ -193,4 +203,4 @@ entries:
     urls:
     - upf-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-12T15:20:18.9351342+02:00"
+generated: "2022-01-13T08:44:08.0233228+02:00"
